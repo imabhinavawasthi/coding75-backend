@@ -1,0 +1,81 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# ---- Distribution / Packaging ----
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- PyInstaller ----
+# (Generated binaries / executables)
+*.manifest
+*.spec
+
+# ---- Logs and Databases ----
+*.log
+*.pot
+*.sqlite3
+*.db
+
+# ---- Unit test / Coverage reports ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints
+
+# ---- IDE / Editor settings ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+
+# ---- AWS / Deployment files ----
+.aws/
+*.pem
+*.key
+
+# ---- Environment variables ----
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# ---- Misc ----
+logs/
+tmp/
